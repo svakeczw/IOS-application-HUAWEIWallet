@@ -1,12 +1,12 @@
 # IOS-application-HUAWEIWallet
-Install Instructions:
+#Install Instructions:
 
-Please add following pods for HUAWEI Wallet app:
+#Please add following pods for HUAWEI Wallet app:
 
-pod 'Charts' pod 'TinyConstraints'
+#pod 'Charts' pod 'TinyConstraints'
 
-Then run pod install, and open HUAWEI Wallet.xcworkspace file
-Contributors:
-Huangxun Liu
-Huiyun Niu
-Zhangwei Chen
+#Then run pod install, and open HUAWEI Wallet.xcworkspace file
+#Contributors:
+#Huangxun Liu
+#Huiyun Niu
+#Zhangwei Chen
