@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0600ED72247E860300F3C178 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0600ED71247E860300F3C178 /* AnalysisViewController.swift */; };
+		0688893A247CC1B2000FBBA0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06888939247CC1B2000FBBA0 /* DashboardViewController.swift */; };
+		25A01BEB2482536F005343DF /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A01BEA2482536F005343DF /* ConverterViewController.swift */; };
+		25C43F7A24892B6B0059FD86 /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C43F7924892B6B0059FD86 /* CurrencyRate.swift */; };
+		25F72B0E2480D06E0003458A /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F72B0D2480D06E0003458A /* CurrencyTableViewController.swift */; };
+		25F72B122480DF820003458A /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F72B112480DF820003458A /* CurrencyTableViewCell.swift */; };
+		4A272B592478CCE50000DDA4 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B582478CCE50000DDA4 /* Record.swift */; };
+		4A272B5B2478CCF80000DDA4 /* ObjectSavable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B5A2478CCF80000DDA4 /* ObjectSavable.swift */; };
+		4A272B5E2478D97F0000DDA4 /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B5D2478D97F0000DDA4 /* Date+extensions.swift */; };
+		4A272B6124790E980000DDA4 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B6024790E980000DDA4 /* RecordTableViewCell.swift */; };
+		4A272B632479143B0000DDA4 /* Style+MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B622479143B0000DDA4 /* Style+MyApp.swift */; };
+		4A272B65247914500000DDA4 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B64247914500000DDA4 /* Style.swift */; };
+		4A272B67247928360000DDA4 /* PickerBasedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B66247928360000DDA4 /* PickerBasedTextField.swift */; };
+		4A272B6924792CE50000DDA4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B6824792CE50000DDA4 /* Currency.swift */; };
+		4A272B6B247935450000DDA4 /* AddRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A272B6A247935450000DDA4 /* AddRecordModel.swift */; };
+		4A2C4587246A31E00094C614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C4586246A31E00094C614 /* AppDelegate.swift */; };
+		4A2C4589246A31E00094C614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C4588246A31E00094C614 /* SceneDelegate.swift */; };
+		4A2C458B246A31E00094C614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C458A246A31E00094C614 /* ViewController.swift */; };
+		4A2C458E246A31E00094C614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C458C246A31E00094C614 /* Main.storyboard */; };
+		4A2C4591246A31E00094C614 /* HUAWEI_Wallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C458F246A31E00094C614 /* HUAWEI_Wallet.xcdatamodeld */; };
+		4A2C4593246A31E20094C614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4592246A31E20094C614 /* Assets.xcassets */; };
+		4A2C4596246A31E20094C614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4594246A31E20094C614 /* LaunchScreen.storyboard */; };
+		4A2C459E246A3A3E0094C614 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C459D246A3A3E0094C614 /* MainTabBarViewController.swift */; };
+		4A2C45AA246A3F260094C614 /* RecordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45A9246A3F260094C614 /* RecordsTableViewController.swift */; };
+		4A2C45AE246A3F3B0094C614 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45AD246A3F3B0094C614 /* SettingTableViewController.swift */; };
+		4A2C45B2246A84EF0094C614 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45B1246A84EF0094C614 /* SplashViewController.swift */; };
+		4A2C45B5246A8E780094C614 /* HWAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45B4246A8E780094C614 /* HWAppConfig.swift */; };
+		4A2C45B7246A8F470094C614 /* UserDefault+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45B6246A8F470094C614 /* UserDefault+Extensions.swift */; };
+		4A2C45B9246A912D0094C614 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45B8246A912D0094C614 /* Facade.swift */; };
+		4A2C45BC246A919F0094C614 /* PersistentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45BB246A919F0094C614 /* PersistentModel.swift */; };
+		4A2C45BF246ABE790094C614 /* AddRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45BE246ABE790094C614 /* AddRecordViewController.swift */; };
+		4A2C45C1246AC31C0094C614 /* DisplayRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C45C0246AC31C0094C614 /* DisplayRecordViewController.swift */; };
+		4A4CCD6C24789E4E00A52B83 /* HomePageVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CCD6B24789E4300A52B83 /* HomePageVideo.mp4 */; };
+		4A649589247B4810009C7A6C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A649588247B4810009C7A6C /* String+Extensions.swift */; };
+		4A64958B247BC8A1009C7A6C /* Number+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A64958A247BC8A1009C7A6C /* Number+Extensions.swift */; };
+		4A64958D247BF16B009C7A6C /* HWCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A64958C247BF16B009C7A6C /* HWCustomView.swift */; };
+		4A64958F247BF318009C7A6C /* HWRecordHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A64958E247BF318009C7A6C /* HWRecordHeaderView.swift */; };
+		4A649591247BF3C8009C7A6C /* HWRecordHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A649590247BF3C8009C7A6C /* HWRecordHeaderView.xib */; };
+		4A649594247C87E0009C7A6C /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A649593247C87E0009C7A6C /* Array+Extensions.swift */; };
+		5DA36456B77A279BACBB8C11 /* Pods_HUAWEI_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B15A216C058E2DED99A9C6 /* Pods_HUAWEI_Wallet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0600ED71247E860300F3C178 /* AnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		06888939247CC1B2000FBBA0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		06B15A216C058E2DED99A9C6 /* Pods_HUAWEI_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUAWEI_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A01BEA2482536F005343DF /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		25C43F7924892B6B0059FD86 /* CurrencyRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		25F72B0D2480D06E0003458A /* CurrencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewController.swift; sourceTree = "<group>"; };
+		25F72B112480DF820003458A /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		4A272B582478CCE50000DDA4 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		4A272B5A2478CCF80000DDA4 /* ObjectSavable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectSavable.swift; sourceTree = "<group>"; };
+		4A272B5D2478D97F0000DDA4 /* Date+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
+		4A272B6024790E980000DDA4 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		4A272B622479143B0000DDA4 /* Style+MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Style+MyApp.swift"; sourceTree = "<group>"; };
+		4A272B64247914500000DDA4 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		4A272B66247928360000DDA4 /* PickerBasedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasedTextField.swift; sourceTree = "<group>"; };
+		4A272B6824792CE50000DDA4 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		4A272B6A247935450000DDA4 /* AddRecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordModel.swift; sourceTree = "<group>"; };
+		4A2C4583246A31E00094C614 /* HUAWEI Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HUAWEI Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2C4586246A31E00094C614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A2C4588246A31E00094C614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A2C458A246A31E00094C614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A2C458D246A31E00094C614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A2C4590246A31E00094C614 /* HUAWEI_Wallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HUAWEI_Wallet.xcdatamodel; sourceTree = "<group>"; };
+		4A2C4592246A31E20094C614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A2C4595246A31E20094C614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A2C4597246A31E20094C614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2C459D246A3A3E0094C614 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		4A2C45A9246A3F260094C614 /* RecordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsTableViewController.swift; sourceTree = "<group>"; };
+		4A2C45AD246A3F3B0094C614 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		4A2C45B1246A84EF0094C614 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4A2C45B4246A8E780094C614 /* HWAppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWAppConfig.swift; sourceTree = "<group>"; };
+		4A2C45B6246A8F470094C614 /* UserDefault+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extensions.swift"; sourceTree = "<group>"; };
+		4A2C45B8246A912D0094C614 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		4A2C45BB246A919F0094C614 /* PersistentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentModel.swift; sourceTree = "<group>"; };
+		4A2C45BE246ABE790094C614 /* AddRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordViewController.swift; sourceTree = "<group>"; };
+		4A2C45C0246AC31C0094C614 /* DisplayRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRecordViewController.swift; sourceTree = "<group>"; };
+		4A4CCD6B24789E4300A52B83 /* HomePageVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomePageVideo.mp4; sourceTree = "<group>"; };
+		4A649588247B4810009C7A6C /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		4A64958A247BC8A1009C7A6C /* Number+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number+Extensions.swift"; sourceTree = "<group>"; };
+		4A64958C247BF16B009C7A6C /* HWCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWCustomView.swift; sourceTree = "<group>"; };
+		4A64958E247BF318009C7A6C /* HWRecordHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWRecordHeaderView.swift; sourceTree = "<group>"; };
+		4A649590247BF3C8009C7A6C /* HWRecordHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HWRecordHeaderView.xib; sourceTree = "<group>"; };
+		4A649593247C87E0009C7A6C /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		7442D26C7B6569789BE37DE1 /* Pods-HUAWEI Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUAWEI Wallet.release.xcconfig"; path = "Target Support Files/Pods-HUAWEI Wallet/Pods-HUAWEI Wallet.release.xcconfig"; sourceTree = "<group>"; };
+		CD1EC5B664A2F1E64F8CC46B /* Pods-HUAWEI Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUAWEI Wallet.debug.xcconfig"; path = "Target Support Files/Pods-HUAWEI Wallet/Pods-HUAWEI Wallet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2C4580246A31E00094C614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA36456B77A279BACBB8C11 /* Pods_HUAWEI_Wallet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B1927EBC2E7581A21FEB11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD1EC5B664A2F1E64F8CC46B /* Pods-HUAWEI Wallet.debug.xcconfig */,
+				7442D26C7B6569789BE37DE1 /* Pods-HUAWEI Wallet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A272B5C2478CD2E0000DDA4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A272B5D2478D97F0000DDA4 /* Date+extensions.swift */,
+				4A272B622479143B0000DDA4 /* Style+MyApp.swift */,
+				4A272B64247914500000DDA4 /* Style.swift */,
+				4A272B66247928360000DDA4 /* PickerBasedTextField.swift */,
+				4A649588247B4810009C7A6C /* String+Extensions.swift */,
+				4A64958A247BC8A1009C7A6C /* Number+Extensions.swift */,
+				4A649593247C87E0009C7A6C /* Array+Extensions.swift */,
+				4A649592247BF3D9009C7A6C /* customExtension */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4A272B5F24790E760000DDA4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4A272B6024790E980000DDA4 /* RecordTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4A2C457A246A31E00094C614 = {
+			isa = PBXGroup;
+			children = (
+				4A2C4585246A31E00094C614 /* HUAWEI Wallet */,
+				4A2C4584246A31E00094C614 /* Products */,
+				18B1927EBC2E7581A21FEB11 /* Pods */,
+				FE02D6A73455BF3A267003C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A2C4584246A31E00094C614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C4583246A31E00094C614 /* HUAWEI Wallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2C4585246A31E00094C614 /* HUAWEI Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				4A272B5F24790E760000DDA4 /* Cell */,
+				4A272B5C2478CD2E0000DDA4 /* Extension */,
+				4A2C4586246A31E00094C614 /* AppDelegate.swift */,
+				4A2C4588246A31E00094C614 /* SceneDelegate.swift */,
+				4A2C458A246A31E00094C614 /* ViewController.swift */,
+				4A4CCD6B24789E4300A52B83 /* HomePageVideo.mp4 */,
+				4A2C458C246A31E00094C614 /* Main.storyboard */,
+				4A2C4592246A31E20094C614 /* Assets.xcassets */,
+				4A2C4594246A31E20094C614 /* LaunchScreen.storyboard */,
+				4A2C4597246A31E20094C614 /* Info.plist */,
+				4A2C458F246A31E00094C614 /* HUAWEI_Wallet.xcdatamodeld */,
+				4A2C45BA246A91850094C614 /* Model */,
+				4A2C45B3246A8E590094C614 /* data */,
+				4A2C45AF246A41AF0094C614 /* Controller */,
+				4A2C45B8246A912D0094C614 /* Facade.swift */,
+			);
+			path = "HUAWEI Wallet";
+			sourceTree = "<group>";
+		};
+		4A2C45AF246A41AF0094C614 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C459D246A3A3E0094C614 /* MainTabBarViewController.swift */,
+				4A2C45A9246A3F260094C614 /* RecordsTableViewController.swift */,
+				4A2C45AD246A3F3B0094C614 /* SettingTableViewController.swift */,
+				4A2C45B1246A84EF0094C614 /* SplashViewController.swift */,
+				4A2C45BE246ABE790094C614 /* AddRecordViewController.swift */,
+				4A2C45C0246AC31C0094C614 /* DisplayRecordViewController.swift */,
+				06888939247CC1B2000FBBA0 /* DashboardViewController.swift */,
+				0600ED71247E860300F3C178 /* AnalysisViewController.swift */,
+				25F72B0D2480D06E0003458A /* CurrencyTableViewController.swift */,
+				25F72B112480DF820003458A /* CurrencyTableViewCell.swift */,
+				25A01BEA2482536F005343DF /* ConverterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A2C45B3246A8E590094C614 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C45B4246A8E780094C614 /* HWAppConfig.swift */,
+				4A2C45B6246A8F470094C614 /* UserDefault+Extensions.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		4A2C45BA246A91850094C614 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C45BB246A919F0094C614 /* PersistentModel.swift */,
+				4A272B582478CCE50000DDA4 /* Record.swift */,
+				4A272B5A2478CCF80000DDA4 /* ObjectSavable.swift */,
+				4A272B6824792CE50000DDA4 /* Currency.swift */,
+				4A272B6A247935450000DDA4 /* AddRecordModel.swift */,
+				25C43F7924892B6B0059FD86 /* CurrencyRate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A649592247BF3D9009C7A6C /* customExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4A64958C247BF16B009C7A6C /* HWCustomView.swift */,
+				4A64958E247BF318009C7A6C /* HWRecordHeaderView.swift */,
+				4A649590247BF3C8009C7A6C /* HWRecordHeaderView.xib */,
+			);
+			path = customExtension;
+			sourceTree = "<group>";
+		};
+		FE02D6A73455BF3A267003C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B15A216C058E2DED99A9C6 /* Pods_HUAWEI_Wallet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A2C4582246A31E00094C614 /* HUAWEI Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2C459A246A31E20094C614 /* Build configuration list for PBXNativeTarget "HUAWEI Wallet" */;
+			buildPhases = (
+				A8A9033BF037FF2D8E3DB47F /* [CP] Check Pods Manifest.lock */,
+				4A2C457F246A31E00094C614 /* Sources */,
+				4A2C4580246A31E00094C614 /* Frameworks */,
+				4A2C4581246A31E00094C614 /* Resources */,
+				E396FF683906F74E87DE5B15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HUAWEI Wallet";
+			productName = "HUAWEI Wallet";
+			productReference = 4A2C4583246A31E00094C614 /* HUAWEI Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2C457B246A31E00094C614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hayden;
+				TargetAttributes = {
+					4A2C4582246A31E00094C614 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A2C457E246A31E00094C614 /* Build configuration list for PBXProject "HUAWEI Wallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A2C457A246A31E00094C614;
+			productRefGroup = 4A2C4584246A31E00094C614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A2C4582246A31E00094C614 /* HUAWEI Wallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2C4581246A31E00094C614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A649591247BF3C8009C7A6C /* HWRecordHeaderView.xib in Resources */,
+				4A4CCD6C24789E4E00A52B83 /* HomePageVideo.mp4 in Resources */,
+				4A2C4596246A31E20094C614 /* LaunchScreen.storyboard in Resources */,
+				4A2C4593246A31E20094C614 /* Assets.xcassets in Resources */,
+				4A2C458E246A31E00094C614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8A9033BF037FF2D8E3DB47F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HUAWEI Wallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E396FF683906F74E87DE5B15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HUAWEI Wallet/Pods-HUAWEI Wallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HUAWEI Wallet/Pods-HUAWEI Wallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HUAWEI Wallet/Pods-HUAWEI Wallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2C457F246A31E00094C614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2C45C1246AC31C0094C614 /* DisplayRecordViewController.swift in Sources */,
+				4A649594247C87E0009C7A6C /* Array+Extensions.swift in Sources */,
+				4A2C45BC246A919F0094C614 /* PersistentModel.swift in Sources */,
+				25C43F7A24892B6B0059FD86 /* CurrencyRate.swift in Sources */,
+				4A2C459E246A3A3E0094C614 /* MainTabBarViewController.swift in Sources */,
+				4A272B5B2478CCF80000DDA4 /* ObjectSavable.swift in Sources */,
+				4A64958B247BC8A1009C7A6C /* Number+Extensions.swift in Sources */,
+				4A2C458B246A31E00094C614 /* ViewController.swift in Sources */,
+				4A2C4591246A31E00094C614 /* HUAWEI_Wallet.xcdatamodeld in Sources */,
+				4A2C45B5246A8E780094C614 /* HWAppConfig.swift in Sources */,
+				4A272B6B247935450000DDA4 /* AddRecordModel.swift in Sources */,
+				4A64958D247BF16B009C7A6C /* HWCustomView.swift in Sources */,
+				4A2C4587246A31E00094C614 /* AppDelegate.swift in Sources */,
+				0600ED72247E860300F3C178 /* AnalysisViewController.swift in Sources */,
+				4A2C45B7246A8F470094C614 /* UserDefault+Extensions.swift in Sources */,
+				25F72B0E2480D06E0003458A /* CurrencyTableViewController.swift in Sources */,
+				4A2C45BF246ABE790094C614 /* AddRecordViewController.swift in Sources */,
+				4A272B5E2478D97F0000DDA4 /* Date+extensions.swift in Sources */,
+				4A649589247B4810009C7A6C /* String+Extensions.swift in Sources */,
+				4A2C45AE246A3F3B0094C614 /* SettingTableViewController.swift in Sources */,
+				4A2C4589246A31E00094C614 /* SceneDelegate.swift in Sources */,
+				4A2C45AA246A3F260094C614 /* RecordsTableViewController.swift in Sources */,
+				4A64958F247BF318009C7A6C /* HWRecordHeaderView.swift in Sources */,
+				4A272B632479143B0000DDA4 /* Style+MyApp.swift in Sources */,
+				4A272B67247928360000DDA4 /* PickerBasedTextField.swift in Sources */,
+				4A2C45B9246A912D0094C614 /* Facade.swift in Sources */,
+				25F72B122480DF820003458A /* CurrencyTableViewCell.swift in Sources */,
+				0688893A247CC1B2000FBBA0 /* DashboardViewController.swift in Sources */,
+				4A272B592478CCE50000DDA4 /* Record.swift in Sources */,
+				4A272B6924792CE50000DDA4 /* Currency.swift in Sources */,
+				4A272B6124790E980000DDA4 /* RecordTableViewCell.swift in Sources */,
+				4A2C45B2246A84EF0094C614 /* SplashViewController.swift in Sources */,
+				4A272B65247914500000DDA4 /* Style.swift in Sources */,
+				25A01BEB2482536F005343DF /* ConverterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A2C458C246A31E00094C614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2C458D246A31E00094C614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A2C4594246A31E20094C614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2C4595246A31E20094C614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A2C4598246A31E20094C614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A2C4599246A31E20094C614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A2C459B246A31E20094C614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1EC5B664A2F1E64F8CC46B /* Pods-HUAWEI Wallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64CH58GTPH;
+				INFOPLIST_FILE = "HUAWEI Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangwei.HUAWEI-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A2C459C246A31E20094C614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7442D26C7B6569789BE37DE1 /* Pods-HUAWEI Wallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64CH58GTPH;
+				INFOPLIST_FILE = "HUAWEI Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangwei.HUAWEI-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2C457E246A31E00094C614 /* Build configuration list for PBXProject "HUAWEI Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2C4598246A31E20094C614 /* Debug */,
+				4A2C4599246A31E20094C614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2C459A246A31E20094C614 /* Build configuration list for PBXNativeTarget "HUAWEI Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2C459B246A31E20094C614 /* Debug */,
+				4A2C459C246A31E20094C614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A2C458F246A31E00094C614 /* HUAWEI_Wallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A2C4590246A31E00094C614 /* HUAWEI_Wallet.xcdatamodel */,
+			);
+			currentVersion = 4A2C4590246A31E00094C614 /* HUAWEI_Wallet.xcdatamodel */;
+			path = HUAWEI_Wallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A2C457B246A31E00094C614 /* Project object */;
+}

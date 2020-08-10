@@ -1,0 +1,6 @@
+framework module Pods_HUAWEI_Wallet {
+  umbrella header "Pods-HUAWEI Wallet-umbrella.h"
+
+  export *
+  module * { export * }
+}
